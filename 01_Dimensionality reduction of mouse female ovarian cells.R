@@ -9,10 +9,6 @@ library(dplyr)
 library(patchwork)
 library(ggplot2)
 
-female1881 <- readRDS("C:/Users/Oo/Desktop/小R/学习日记/2_seurat学习/00_01_WT_Female_E11.5_E18.5_1881_celltype10.rds")
-meta_table <- female1881@meta.data
-count_table <- data.frame(female1881@assays$RNA@counts)
-
 # Read count_table @ meta_table
 count_table <- read.csv("/DataC/mmdata/mm/mouse_female_ovarian_cells_count.csv",header = T,row.names = 1)
 meta_table <- read.csv("/DataC/mmdata/mm/mouse_female_ovarian_cells_meta.csv",header = T,row.names = 1)
