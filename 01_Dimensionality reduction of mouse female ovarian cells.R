@@ -1,8 +1,8 @@
-##################################################################
-### 01_Dimensionality reduction of mouse female ovarian cells  ###
-### Author: Manman cui                                         ###
-### Date: 2021-08-08                                           ###
-##################################################################
+###################################################################
+### 01_Dimensionality reduction of mouse female ovarian cells   ###
+### Author: Manman cui                                          ###
+### Date: 2021-08-08                                            ###
+###################################################################
 
 library(Seurat)
 library(dplyr)
