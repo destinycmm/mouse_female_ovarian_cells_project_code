@@ -87,3 +87,4 @@ pheatmap(germ_cell_meta_scaledata_table_2,
          annotation_col = annotation_col)
 graph2jpg(file="/DataC/mmdata/mm/output/C1_C9_DEG.jpg",width=8.51,height=7.72)
 
+
