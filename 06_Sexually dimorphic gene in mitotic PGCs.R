@@ -25,3 +25,6 @@ F_M_PGC_DEG <- FindMarkers(F_M_PGC,ident.1 ="F-PGCs",ident.2 ="M-PGCs",
 F_M_PGC_DEG$cluster <- as.factor(ifelse(F_M_PGC_DEG$p_val_adj<0.05,ifelse(F_M_PGC_DEG$avg_log2FC>0,"F-PGCs","M-PGCs"),"unsig"))
 F_M_PGC_DEG$gene <- rownames(F_M_PGC_DEG)
 write.xlsx(F_M_PGC_DEG,"/DataC/mmdata/mm/output/F_M_PGC_DEG.xlsx")
+
+
+
