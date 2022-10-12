@@ -9,9 +9,8 @@ library(dplyr)
 library(ggplot2)
 library(pheatmap)
 library(export)
+
 mouse_female_ovarian_germ_cells <- readRDS("C:/Users/Oo/Desktop/小R/学习日记/2_seurat学习/00_01_WT_Female_E11.5_E18.5_1881_GC_celltype10.rds")
-
-
 # Find all DEG
 mouse_female_ovarian_cells <- readRDS("/DataC/mmdata/mm/mouse_female_ovarian_cells.rds")
 mouse_female_ovarian_germ_cells <- subset(mouse_female_ovarian_cells,
