@@ -3,7 +3,7 @@
 ## Main softwares used in downstream analyses
 * Seurat (v4.0.3)
 * pySCENIC
-* CellphoneDB (version 3.0)
+* CellphoneDB (v3.0)
 * NicheNet
 * Compass
 * scMetabolism
