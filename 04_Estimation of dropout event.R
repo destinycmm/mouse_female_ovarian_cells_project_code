@@ -9,7 +9,6 @@ library(dplyr)
 library(ggplot2)
 library(export)
 
-overlap_gene_list <-read.table("C:/Users/Oo/Desktop/雌性/202106-/0001-作图文件/6-作图代码和材料/Fig1_Fig2/Fig1H&FigS3D/overlap-genes-19477.txt",header = F)
 # Read overlapped genes list
 overlap_gene_list <- read.table("/DataC/mmdata/mm/output/overlap-genes-19477.txt",header = F)
 names(overlap_gene_list)="gene"
