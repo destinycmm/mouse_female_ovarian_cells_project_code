@@ -41,3 +41,5 @@ overlap_gene_dropout_ratio_plot <- ggplot()+geom_point(overlap_gene_dropout_rati
   geom_point(mark_gene,mapping = aes(this_dataset,gse136441_dataset),color="#ed918a")+
   geom_text(mark_gene,mapping = aes(this_dataset,gse136441_dataset,label=gene),hjust=-0.2)+theme_bw()+theme(panel.grid = element_blank())
 graph2pdf(overlap_gene_dropout_ratio_plot,"/DataC/mmdata/mm-study/output/作图代码和材料/Fig1/Fig1J/overlap_gene_dropout_ratio_plot.pdf",width=4.52,height=3.51)
+
+
